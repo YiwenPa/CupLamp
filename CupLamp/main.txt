@@ -1,0 +1,6 @@
+forever(function () {
+    light.graph(input.acceleration(Dimension.X))
+})
+forever(function () {
+    music.playTone(input.lightLevel() + 300, Math.abs(0))
+})
